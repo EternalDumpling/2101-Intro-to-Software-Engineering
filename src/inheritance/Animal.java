@@ -3,14 +3,14 @@ package inheritance;
 
 public class Animal {
 
-    protected String anmialType;
+    protected String animalType;
 
     public Animal(String type) {
-        anmialType = type;
+        animalType = type;
     }
 
     Animal() {
-        anmialType = "none";
+        animalType = "none";
     }
 
     public void noise() {

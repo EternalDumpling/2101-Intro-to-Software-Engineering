@@ -4,10 +4,8 @@ import inheritance.Dog;
 
 class NoisyAnimal {
 
-    private static Dog greyhound;
-
     public static void main(String[] args) {
-        greyhound = new Dog();
+        Dog greyhound = new Dog();
 
         greyhound.noise();
 
